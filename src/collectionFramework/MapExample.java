@@ -9,7 +9,7 @@ public class MapExample {
 
 	public static void main(String[] args) {
 	
-		Map <String, String> map = new HashMap<>();
+		HashMap <String, String> map = new HashMap<>();
 		
 	  map.put("name", "Amit");
 	  map.put("Actor", "Amir");
@@ -23,7 +23,7 @@ public class MapExample {
 	  
 	  
 	  for ( String i : values ) {
-		  if ( i.equalsIgnoreCase("Actor")) {
+		  if ( values.contains(i)) {
 		 System.out.println(i  +  "    " + map.get(i));
 		  }
 	  }

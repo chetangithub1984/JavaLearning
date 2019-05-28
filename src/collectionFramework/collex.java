@@ -33,6 +33,11 @@ public class collex {
 		
 		System.out.println(myset.size());
 		
+		Iterator<Integer> itr = myset.iterator();
+		 while ( itr.hasNext()) {
+			 System.out.println(itr.next());
+		 }
+		
 
 	}
 

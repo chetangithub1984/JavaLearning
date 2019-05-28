@@ -12,7 +12,8 @@ public class FinallyBlockExample {
 		
 		}
 		
-		catch (ArrayIndexOutOfBoundsException ao) {
+		catch (ArithmeticException ao) {
+			System.out.println(ao);
 			System.out.println("Array out of bound");
 		}
 		
